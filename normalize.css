@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.section-paragraphs {
+    text-align: center;
+    margin: 0px;
+    align-content: center;
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.section-paragraphs__title {
+    font-size: 32px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.section-paragraphs__paragraph {
+    font-size: 16px;
+    margin: 0px;
+}

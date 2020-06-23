@@ -1,0 +1,76 @@
+.contact-section {
+    box-sizing: border-box;
+    background-color: #F7941E;
+    height: 240px;
+    margin: 0px;
+    text-align: center;
+}
+
+.contact-section__content {
+    display: inline-block;
+    padding-top: 72px;
+}
+
+.contact-section__text {
+    display: inline-block;
+    padding-right: 224px;
+    vertical-align: middle;
+}
+
+
+.contact-section__text-title {
+    font-size: 32px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.contact-section__text-paragraph {
+    font-size: 32px;
+    margin: 0px;
+}
+
+.contact-section__buttons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-section__button-one {
+    display: inline-block;
+    background-color: #231F20;;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 16px 24px;
+    text-transform: uppercase;
+    margin-right: 16px;
+    transition: opacity 500ms;
+}
+
+.contact-section__button-one:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.contact-section__button-two {
+    display: inline-block;
+    color: #231F20;;
+    border: 1px solid #231F20;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 16px 24px;
+    text-transform: uppercase;
+    transition: border 500ms, color 500ms;
+}
+
+.contact-section__button-two:hover{
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 253);
+    color: rgb(255, 255, 253);
+}
+
+div{
+    box-sizing: border-box;
+}
